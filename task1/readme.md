@@ -20,7 +20,7 @@ chmod +x backup.sh
 ### 3. Schedule with Cron
 
 Edit Crontab
-crontab -e
-0 0 * * * /full/path/to/backup.sh >> /var/log/backup.log 2>&1
+- crontab -e
+- 0 0 * * * /full/path/to/backup.sh >> /var/log/backup.log 2>&1
 
 ```bash
