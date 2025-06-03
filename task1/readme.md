@@ -13,12 +13,14 @@ Edit backup.sh to specify:
 - BACKUP_DIR – Where to store backups (e.g., /backup)
 
 ### 2. Make the Script Executable
-```bash
+
 chmod +x backup.sh
 
 
 ### 3. Schedule with Cron
+
 Edit Crontab
 crontab -e
 0 0 * * * /full/path/to/backup.sh >> /var/log/backup.log 2>&1
 
+```bash
