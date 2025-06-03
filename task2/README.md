@@ -13,8 +13,8 @@ This is a simple Flask web application containerized with Docker.
 
 ### 1. Clone the Repository
 
-git clone https://github.com/yourusername/docker-flask-web-app.git
-cd docker-flask-web-app
+- git clone https://github.com/Praveen4601/novastrid_codinground.git
+- cd novastrid_codinground/task2
 
 ### 2. Build the Docker Image
 docker build -t flask-app .
@@ -25,3 +25,6 @@ docker run -p 8080:8080 flask-app
 ### 4. Access the App
 
 Visit: http://localhost:8080
+
+```bash
+
